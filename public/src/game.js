@@ -1,5 +1,6 @@
 // Linted with standardJS - https://standardjs.com/
-
+import SmartController from 'smartcontroller';
+const peer = new SmartController('id', 'frequency'); 
 // Initialize the Phaser Game object and set default game window size
 const game = new Phaser.Game(800, 600, Phaser.AUTO, '', {
   preload: preload,
